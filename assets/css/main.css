@@ -2147,6 +2147,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* tech stack */
+
+#techstack{
+	font-weight: bold;
+	text-align: center;
+}
+
 /* List */
 
 	ol {
