@@ -2151,7 +2151,7 @@ input, select, textarea {
 
 #techstack{
 	font-weight: bold;
-	text-align: center;
+	
 }
 
 /* List */
@@ -3228,3 +3228,22 @@ input, select, textarea {
 			}
 
 	}
+
+/* Nav */
+#navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 3rem;
+	border-bottom: goldenrod .5px solid;
+	
+}
+
+#navigation a{
+	font-size: larger;
+	text-decoration: none;
+	border-bottom: none;
+	color: #a2a2a2;
+	cursor: pointer;
+	margin-bottom: .5rem;
+}
